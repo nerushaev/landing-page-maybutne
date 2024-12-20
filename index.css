@@ -313,6 +313,7 @@ body {
 .image-wrapper-1 {
   position: relative;
   margin-top: 118px;
+  margin-bottom: -50px;
   @media screen and (min-width: 1200px) {
   margin-top: 0px;
   margin-bottom: 50px;
@@ -487,6 +488,33 @@ body {
   font-weight: 700;
 }
 
+.tranform-fixer {
+  margin-bottom: -20px;
+  @media screen and (min-width:1200px) {
+  margin-bottom: 50px;
+    
+  }
+}
+
+.medium-text-accent {
+font-size: 20px;
+font-weight: 400;
+line-height: 21.09px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+@media screen and (min-width: 1200px) {
+font-size: 45px;
+font-weight: 400;
+line-height: 47.46px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+}
+
 .top-right-radius-block {
   transform: translate();
   background-color: #a8dadb;
@@ -514,6 +542,7 @@ body {
 
 .story_second {
   position: relative;
+  margin-bottom: -50px;
   @media screen and (min-width: 1200px) {
     margin-left: auto;
   }
