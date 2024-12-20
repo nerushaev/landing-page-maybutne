@@ -116,6 +116,7 @@ body {
 }
 
 .title-wrapper {
+  position: relative;
   margin-bottom: 12px;
 }
 
@@ -320,7 +321,22 @@ body {
 
 .icon-top {
   position: absolute;
-  top: -98px; /* Выступ вверх */
+  bottom: -120px; 
+  right: 10px;
+  z-index:10;
+  @media screen and (min-width: 1200px) {
+    bottom: 0px;
+    right: -100px;
+
+  }
+}
+
+.first-type-story-icon {
+  position: absolute;
+  top: -97px;
+  @media screen and (min-width: 1200px) {
+    top: 473px;
+  }
 }
 
 .small-icon {
@@ -507,6 +523,13 @@ body {
   position: absolute;
   top: -81px;
   right: 17px;
+  @media screen and (min-width: 1200px) {
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: -300px;
+    z-index: 10;
+  }
 }
 
 .victoriya-second-bottom-side {
@@ -534,6 +557,7 @@ body {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   @media screen and (min-width: 1200px) {
+    max-height: 564px;
     width: 706px;
     border-top-left-radius: 250px;
     border-bottom-left-radius: 250px;
